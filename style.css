@@ -5,7 +5,87 @@
 }
 html, body{
     width: 100%;
-    height: 100%;
+    height: 100vh;
+}
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(248, 248, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login_section{
+    width: 26vw;
+    height: 65vh;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10%;
+    box-shadow: 0px 0px 25px #414040e1;
+}
+#logo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo h2{
+    color: aliceblue;
+    font-size: 36px;
+    padding-top: 20px;
+    font-family: "opensans";
+    font-weight: 500;
+    font-style: italic;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+#login{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+}
+.input{
+    width: 70%;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 7px 14px;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-family: "opensans";
+}
+::placeholder{
+    color: white;
+    font-size: 20px;
+    font-family: "opensans";
+}
+.btn{
+    width: 40%;
+    height: 16%;
+    outline: none;
+    padding: 8px 16px;
+    font-size: 31px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(248, 248, 12);
+    border: none;
+    font-family: "opensans";
+    margin-top: 14px;
+    color: rgb(49, 49, 49);
+    box-shadow: 0px 0px 25px rgba(85, 85, 85, 0.683);
+    transition: 0.6s;
+    transform: scale(1);
+}
+.btn:hover{
+    transform: scale(1.1);
 }
 
 
